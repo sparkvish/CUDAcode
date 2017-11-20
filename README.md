@@ -12,3 +12,7 @@ There are kernels for the following functions:
  3. Color to negative
  
 I will add more when I find time to do so, and hope this repository helps a few people who are trying to learn CUDA programming
+
+stb_image returns the image as an array of bytes, and this has been used to manipulate the channels
+
+Note: The code assumes that we are using RGB images. It will fail on RGBA or sRGB. (easy way to check: bit depth = 24)
